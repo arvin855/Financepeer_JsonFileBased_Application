@@ -14,19 +14,25 @@ A basic web application has the following features:
 3.Database => MYSQL
 
 # Project and Database setup
-1. Download/ Clone main project files to local Device
-2) Launch MYSQL workbench and create database `financepeer_jsondata`
-3) Create tables `jdata` and `users`
-4) All Creation related quires are provided in directory `Financepeer_JsonFileBased_Application/database_details`
+1. Download/ Clone main project files to local Devic
+
+2. Launch MYSQL workbench and create database `financepeer_jsondata`
+
+3. Create tables `jdata` and `users`
+
+4. All Creation related quires are provided in directory `Financepeer_JsonFileBased_Application/database_details`
 => Text file `Database creation queries` contains the creation queries
 => Sql files `financepeer_jsondata_jdata` and `financepeer_jsondata_users` can be used to directly import into MYSQL usinf Import Data option
-5)go to `Financepeer_JsonFileBased_Application/server` file -->please provide database connection details (host,user,password,database).
+
+5.go to `Financepeer_JsonFileBased_Application/server` file -->please provide database connection details (host,user,password,database).
 In code=> const mydb = mysql.createConnection({
 					  user: "",
 					  host: "",
 					  password: "",
 					  database: "financepeer_jsondata"
 					})
+ 
+
 
 # Backend setup and Front end setup
 1.Open project in VSCODE and open terminal
