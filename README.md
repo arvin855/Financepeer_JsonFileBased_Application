@@ -15,7 +15,6 @@ A basic web application has the following features:
 
 # Project and Database setup
 1. Download/ Clone main project files to local Device
-<br />
 2) Launch MYSQL workbench and create database `financepeer_jsondata`
 <br />
 3) Create tables `jdata` and `users`
