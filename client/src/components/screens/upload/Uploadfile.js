@@ -77,9 +77,7 @@ function Uploadfile() {
             autoClose: 2000,
             pauseOnHover: true
           })
-          setTimeout(() => {
-            history.push("/Display")
-          }, 2000)
+          setUploadPercentage(0)
         }
         if (result.message) {
           toast.error(`${result.message} `, {

@@ -88,9 +88,7 @@ export default function Register() {
         toast.success("Sign Up Successful!", {
           autoClose: 2000
         })
-        setTimeout(() => {
-          history.push("/Display")
-        }, 2000)
+        setTimeout(() => history.go(0), 2000)
       } else {
         const error = new Error()
         error.message = "Something went wrong."

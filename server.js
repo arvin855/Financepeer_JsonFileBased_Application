@@ -129,7 +129,7 @@ app.post("/upload", async (req, res) => {
             if (err) {
               console.log(err)
             } else {
-              res.send(result)
+              res.send({ ok: "ok" })
             }
           }
         )
