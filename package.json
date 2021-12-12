@@ -1,0 +1,38 @@
+{
+  "name": "financepeer_jsonfilebased_application",
+  "version": "1.0.0",
+  "description": "A basic web application having the following features: \r 1. An authentication system. \r 2. Upload a JSON file and save the data in the database. \r 3. Display the data saved in the database.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arvin855/Financepeer_JsonFileBased_Application.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arvin855/Financepeer_JsonFileBased_Application/issues"
+  },
+  "homepage": "https://github.com/arvin855/Financepeer_JsonFileBased_Application#readme",
+  "devDependencies": {
+    "concurrently": "^6.4.0",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "jsonwebtoken": "^8.5.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
+    "xlsx": "^0.17.4"
+  }
+}

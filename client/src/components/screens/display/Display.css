@@ -1,0 +1,8 @@
+.tabelData{
+   display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    align-items: center !important;
+    justify-content: center !important;
+    
+}

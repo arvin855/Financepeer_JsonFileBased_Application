@@ -1,0 +1,40 @@
+
+  h1{
+      text-align: center;
+  }
+  h5{
+    text-decoration: underline;
+  }
+  .upload-container{
+    
+     opacity: 1;
+      display: flex;
+      /* color: white; */
+      justify-content: center;
+      align-items: center;
+      height: 35rem;
+  
+      border: 2px solid black;
+      margin-top: 28px;
+      margin-left: auto;
+      margin-right: auto;
+      width: 40%;
+      /* background: rgba(0, 0, 0, 0.8); */
+      -webkit-box-shadow: -1px 4px 26px 11px rgba(0,0,0,0.7);
+  -moz-box-shadow: -1px 4px 26px 11px rgba(0,0,0,0.75);
+  box-shadow: -1px 4px 26px 11px rgba(0,0,0,0.75);
+  z-index: 999;
+  }
+  
+    button{
+      cursor: pointer;
+    }
+  
+    .not-allowed{
+        pointer-events: all !important;
+        cursor: not-allowed !important;
+    }
+  
+    input{
+      cursor: pointer !important;
+    }
